@@ -24,7 +24,7 @@ st.warning("⚠️ This system is a prototype and predictions may not always be 
 
 @st.cache_data
 def load_dataset():
-    df = pd.read_csv("misinformation-dashboard/data/liar_dataset.csv",
+    df = pd.read_csv("data/liar_dataset.csv",
         sep="\t",
         header=None
     )
